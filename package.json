@@ -1,0 +1,36 @@
+{
+  "name": "twitter-beautifier",
+  "version": "1.0.0",
+  "description": "Use twitter transformer to create html from a twitter JSON response",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "cover": "istanbul cover ./node_modules/.bin/_mocha -- ./index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herzuull/twitter-beautifier.git"
+  },
+  "keywords": [
+    "twitter",
+    "html",
+    "json",
+    "htmlify",
+    "beautify",
+    "transformer"
+  ],
+  "author": "Herzuull - (Kevin Goualch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herzuull/twitter-beautifier/issues"
+  },
+  "homepage": "https://github.com/herzuull/twitter-beautifier#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.1.1",
+    "eslint-config-axa": "^2.2.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^2.5.3"
+  }
+}

@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/herzuull/.nvm/versions/node/v4.3.1/bin/node',
+1 verbose cli   '/Users/herzuull/.nvm/versions/node/v4.3.1/bin/npm',
+1 verbose cli   'adduser' ]
+2 info using npm@3.9.2
+3 info using node@v4.3.1
+4 verbose adduser before first PUT { _id: 'org.couchdb.user:herzuull',
+4 verbose adduser   name: 'herzuull',
+4 verbose adduser   password: 'XXXXX',
+4 verbose adduser   email: 'herzuull@gmail.com',
+4 verbose adduser   type: 'user',
+4 verbose adduser   roles: [],
+4 verbose adduser   date: '2016-07-21T08:45:12.651Z' }
+5 verbose request uri https://axags.artifactoryonline.com/axags/api/npm/virtual-libcontento/-/user/org.couchdb.user:herzuull
+6 verbose request new user, so can't send auth
+7 info attempt registry request try #1 at 10:45:12
+8 verbose request id 3df1395f2a7bd612
+9 http request PUT https://axags.artifactoryonline.com/axags/api/npm/virtual-libcontento/-/user/org.couchdb.user:herzuull
+10 http 204 https://axags.artifactoryonline.com/axags/api/npm/virtual-libcontento/-/user/org.couchdb.user:herzuull
+11 verbose headers { date: 'Thu, 21 Jul 2016 08:45:08 GMT',
+11 verbose headers   server: 'Artifactory/4.9.1',
+11 verbose headers   'x-artifactory-id': 'aoltrial1c-axags',
+11 verbose headers   'x-node': 'nginx-shared2e.prod-use1',
+11 verbose headers   connection: 'keep-alive' }
+12 verbose request invalidating /Users/herzuull/.npm/axags.artifactoryonline.com/axags/api/npm/virtual-libcontento/-/user/org.couchdb.user_3Aherzuull on PUT
+13 verbose adduser back [ null, undefined, undefined ]
+14 verbose stack Error: 204 Could not create user
+14 verbose stack undefined
+14 verbose stack     at /Users/herzuull/.nvm/versions/node/v4.3.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/adduser.js:112:17
+14 verbose stack     at /Users/herzuull/.nvm/versions/node/v4.3.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/adduser.js:73:16
+14 verbose stack     at /Users/herzuull/.nvm/versions/node/v4.3.1/lib/node_modules/npm/lib/cache/caching-client.js:49:12
+14 verbose stack     at next (/Users/herzuull/.nvm/versions/node/v4.3.1/lib/node_modules/npm/node_modules/rimraf/rimraf.js:74:7)
+14 verbose stack     at CB (/Users/herzuull/.nvm/versions/node/v4.3.1/lib/node_modules/npm/node_modules/rimraf/rimraf.js:110:9)
+14 verbose stack     at /Users/herzuull/.nvm/versions/node/v4.3.1/lib/node_modules/npm/node_modules/rimraf/rimraf.js:136:14
+14 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+15 verbose cwd /Users/herzuull/Projects/twitter-beautifier
+16 error Darwin 14.5.0
+17 error argv "/Users/herzuull/.nvm/versions/node/v4.3.1/bin/node" "/Users/herzuull/.nvm/versions/node/v4.3.1/bin/npm" "adduser"
+18 error node v4.3.1
+19 error npm  v3.9.2
+20 error 204 Could not create user
+20 error undefined
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]
