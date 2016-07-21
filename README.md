@@ -18,7 +18,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
     console.log(tweets);
   }
-  res.render('index', {tweet: TwitterBeautifier(tweets)});
+  res.render('index', {tweets: tweets.map(TwitterBeautifier)});
 });
 ```
 
