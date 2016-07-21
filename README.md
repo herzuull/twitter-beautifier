@@ -1,6 +1,6 @@
 # twitter-beautifier
 
-A short library used to transform a raw Twitter API response to a usable html snippet
+A short library used to beautify a raw Twitter API json response to a usable html snippet
 
 ```javascript
 var Twitter = require('twitter');

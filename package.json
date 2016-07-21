@@ -1,7 +1,7 @@
 {
   "name": "twitter-beautifier",
-  "version": "1.0.0",
-  "description": "Use twitter transformer to create html from a twitter JSON response",
+  "version": "1.0.1",
+  "description": "Use twitter beautifier to create html from a twitter JSON response",
   "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js",
